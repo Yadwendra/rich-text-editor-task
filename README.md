@@ -1,12 +1,36 @@
-# React + Vite
+# 📝 Rich Text Editor – Front-End Developer Task (MobileFirst Applications)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a practical assignment for the Front-End Developer role at MobileFirst Applications.
 
-Currently, two official plugins are available:
+## ✅ Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Rich Text Editor using Tiptap
+- ✅ Text Formatting: Bold, Italic, Underline
+- ✅ Headings (H1, H2)
+- ✅ Bullet List / Numbered List
+- ✅ Drag and Drop Image Upload with Preview
+- ✅ Auto-save content every 10 seconds using localStorage
+- ✅ Auto-load saved content on page reload
+- ✅ Export editor content as HTML
+- ✅ Auto-save status indicator (e.g., "Saving...", "Saved")
+- ✅ Responsive UI using Tailwind CSS
+- ✅ Clean functional React components with hooks
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Tech Stack
+
+- ⚛️ React (Functional Components + Hooks)
+- ✍️ Tiptap Editor
+- 🎨 Tailwind CSS
+- 🧠 localStorage
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/Yadwendra/rich-text-editor-task.git
+cd rich-text-editor-task
+npm install
+npm run dev
